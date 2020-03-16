@@ -1,0 +1,166 @@
+* {
+  background-color: var(--bg-light-white);
+}
+:root {
+  --bg-red: #e6563b;
+  --bg-orange: #eb9d3a;
+  --bg-green: #7cb06b;
+  --bg-blue: #00aba6;
+  --bg-light-white: #f0f0f0;
+  --bg-dark-grey: #e6e6e6;
+  --bg-white: #ffffff;
+  --nav-colors: #000000;
+}
+.top-row {
+  height: 50px;
+}
+.main-logo-content {
+  height: 50px;
+  background-color: var(--bg-white);
+}
+.main-logo-img {
+  position: absolute;
+  z-index: 1000;
+  left: 105px;
+  bottom: -25px;
+  background-color: transparent;
+  width: 105px;
+  height: 105px;
+}
+/* main logo small version */
+.main-logo-img-s {
+  position: absolute;
+  z-index: 1000;
+  left: 280px;
+  bottom: -25px;
+  background-color: transparent;
+  width: 105px;
+  height: 105px;
+}
+.main-logo-img-m {
+  position: absolute;
+  z-index: 1000;
+  left: 50px;
+  bottom: -25px;
+  background-color: transparent;
+  width: 105px;
+  height: 105px;
+}
+.medium-design-logo {
+  background-color: transparent;
+}
+.medium-nav-logo {
+  position: absolute;
+  z-index: 1000;
+  left: 165px;
+}
+/* small nav ul */
+.small-nav-ul,
+.small-nav-li {
+  background-color: transparent;
+}
+/* small nav ul */
+/* main logo small version */
+.codeup-design-logo {
+  font-family: "Abel", sans-serif;
+  background-color: transparent;
+}
+/* x-small nav styling */
+.xs-nav-links,
+.small-nav-links {
+  color: var(--nav-colors);
+  font-family: "Abel", sans-serif;
+}
+/* x-small circles */
+.red-circle,
+.orange-circle,
+.green-circle,
+.blue-circle {
+  color: var(--bg-white);
+  border: 8px solid var(--bg-white);
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  width: 105px;
+  height: 105px;
+}
+.red-circle,
+.design,
+.small-red-circle,
+.small-red-circles {
+  background-color: var(--bg-red);
+}
+.orange-circle,
+.develop,
+.small-orange-circle,
+.small-orange-circles {
+  background-color: var(--bg-orange);
+}
+.green-circle,
+.support,
+.small-green-circle,
+.small-green-circles {
+  background-color: var(--bg-green);
+}
+.blue-circle,
+.host,
+.small-blue-circle,
+.small-blue-circles {
+  background-color: var(--bg-blue);
+}
+.main-header {
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+}
+.utah-header {
+  font-family: "Anton", sans-serif;
+}
+.line-break {
+  border: 1px solid lightgrey;
+  width: 65%;
+}
+.line-break-md {
+  border: 1px solid lightgrey;
+  width: 90%;
+}
+.selected-work,
+.featured-text,
+.the-last {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+}
+/* images */
+.xs-image {
+  border: 8px solid var(--bg-dark-grey);
+  border-radius: 5px;
+  width: 100%;
+}
+.s-images {
+  border: 8px solid var(--bg-dark-grey);
+  border-radius: 5px;
+  width: 50%;
+}
+/* end of images */
+.small-circles {
+  font-family: "Anton", sans-serif;
+  font-size: 9px;
+  width: 18px;
+  height: 18px;
+}
+.side-content {
+  width: 75px;
+  height: 75px;
+  border: 3px solid lightgrey;
+  border-radius: 5px;
+}
+.side-content-text {
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+}
+.last-tweet {
+  font-family: "Abel", sans-serif;
+  font-size: 24px;
+}
+.last-tweet-paragraph {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+}
